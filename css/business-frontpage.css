@@ -1,0 +1,35 @@
+/*
+ * Start Bootstrap - Business Frontpage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+@import 'https://fonts.googleapis.com/css?family=Handlee';
+.business-header {
+    height: 400px;
+    background: url(/img/pole.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+    font-family: 'Handlee', cursive;
+    font-size: 3em;
+}
+.img-center {
+    margin: 0 auto;
+}
+footer {
+    margin: 50px 0;
+}
