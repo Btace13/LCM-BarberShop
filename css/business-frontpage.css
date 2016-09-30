@@ -16,10 +16,44 @@ body {
     font-family: 'Open Sans Condensed', sans-serif;
     color: #ecf0f1;
     background: #222;
+    position: relative;
 }
-p, address {
+p {
     font-size: 14pt;
-    margin-bottom: 39px;
+    margin-bottom: 40px;
+}
+address {
+    font-size: 14pt;
+    text-align: center;
+    line-height: 1.6;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, .8);
+    border-bottom: none;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #ecf0f1;
+    font-size: 12pt;
+}
+.widget-social {
+    padding: 0;
+    margin: 0;
+}
+.widget-social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.widget-social li a {
+    background: #2e2e2e;
+    text-align: center;
+    display: block;
+    padding: 10px 20px;
+    line-height: 40px;
+    font-size: 1.25em;
+    color: #ecf0f1;
+}
+.widget-social li a:hover {
+    background: #c0392b;
 }
 .business-header {
     height: 400px;
@@ -44,6 +78,15 @@ a.button {
 hr {
     border-top: 1px solid #c0392b;
 }
+.son {
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background: url(/img/son.jpg);
+    background-position: center;
+    background-size: cover;
+}
 .what_we_do {
     margin-top: 80px;
 }
@@ -61,9 +104,9 @@ hr {
     margin: 0 4px;
 }
 .owl-theme .owl-controls .owl-page span {
-    border-radius: 0;
-    width: 40px;
-    height: 4px;
+    border-radius: 100%;
+    width: 5px;
+    height: 5px;
 }
 .owl-theme .owl-controls .owl-pagination {
     margin-top: 20px;
@@ -74,7 +117,13 @@ hr {
 #clients h2 {
     margin: 50px 0 100px 0;
 }
-.img1 {
+.carousel-inner img {
+    max-width: 600px;
+    max-height: 600px;
+    margin: auto;
+}
+
+/*.img1 {
     width: 300px;
     height: 300px;
     border-radius: 100%;
@@ -100,9 +149,29 @@ hr {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}*/
+
+.media img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
 }
 .marketing {
     margin-top: 80px;
+}
+.main {
+    margin-top: 100px;
+}
+.main img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.main div {
+    margin-bottom: 20px;
+}
+.main h5 {
+    font-size: 2em;
 }
 h1, h2 {
     font-family: 'Julius Sans One', sans-serif;
@@ -116,9 +185,13 @@ h4 {
     color: #fff;
     font-family: 'Julius Sans One', sans-serif;
     font-size: 4em;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 footer {
     text-align: center;
     margin: 200px 0 50px 0;
+}
+
+}
+
 }
