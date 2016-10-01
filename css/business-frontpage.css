@@ -12,20 +12,28 @@
 @import 'https://fonts.googleapis.com/css?family=Permanent+Marker';
 @import 'https://fonts.googleapis.com/css?family=Special+Elite';
 @import 'https://fonts.googleapis.com/css?family=Bungee+Shade|Julius+Sans+One';
+@import 'https://fonts.googleapis.com/css?family=Lobster';
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+html {
+    background: #c0392b;
+}
 body {
-    font-family: 'Open Sans Condensed', sans-serif;
-    color: #ecf0f1;
-    background: #222;
+    font-family: 'Raleway', sans-serif;
     position: relative;
 }
 p {
-    font-size: 14pt;
+    font-size: 12pt;
     margin-bottom: 40px;
 }
 address {
-    font-size: 14pt;
+    font-size: 13pt;
     text-align: center;
     line-height: 1.6;
+}
+.navbar .navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 20pt;
+    color: #c0392b;
 }
 .navbar {
     background-color: rgba(0, 0, 0, .8);
@@ -34,6 +42,7 @@ address {
 .navbar-inverse .navbar-nav>li>a {
     color: #ecf0f1;
     font-size: 12pt;
+    font-family: 'Raleway', sans-serif;
 }
 .widget-social {
     padding: 0;
@@ -44,16 +53,17 @@ address {
     margin-right: 10px;
 }
 .widget-social li a {
-    background: #2e2e2e;
+    background: #000;
     text-align: center;
     display: block;
     padding: 10px 20px;
     line-height: 40px;
     font-size: 1.25em;
     color: #ecf0f1;
+    border-radius: 10px;
 }
 .widget-social li a:hover {
-    background: #c0392b;
+    background: #2980b9;
 }
 .business-header {
     height: 400px;
@@ -68,37 +78,39 @@ address {
 a.button {
     padding: 10px 30px;
     background: #c0392b;
-    color: #ecf0f1;
+    color: #fff;
     border-radius: 10px;
 }
 .button:hover {
+    background: #2980b9;
     color: #fff;
     text-decoration: none;
 }
 hr {
-    border-top: 1px solid #c0392b;
+    border-top: 1px solid #2980b9;
 }
 .son {
-    margin: auto;
-    width: 300px;
-    height: 300px;
-    border-radius: 10px;
+    margin: 25px auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
     background: url(/img/son.jpg);
     background-position: center;
     background-size: cover;
+    box-shadow: 0 0 10px #ccc;
 }
 .what_we_do {
     margin-top: 80px;
 }
-.btn {
-    margin: 10px;
-}
 .owl-item img {
-    max-width: 200px;
-    max-height: 200px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    box-shadow: 0 0 2px #222;
 }
 .owl-theme .owl-item {
     text-align: center;
+    margin: 0 10px;
 }
 .owl-theme .owl-controls .owl-page span {
     margin: 0 4px;
@@ -171,27 +183,24 @@ hr {
     margin-bottom: 20px;
 }
 .main h5 {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 h1, h2 {
-    font-family: 'Julius Sans One', sans-serif;
-    color: #2980b9;
+    font-family: 'Lobster', cursive;
+    color: #c0392b;
 }
 h4 {
+    font-size: 12pt;
     font-style: italic;
 }
 #tagline {
-    text-shadow: 0 0 5px #c0392b;
+    text-shadow: 0 0 10px #c0392b;
     color: #fff;
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Lobster', cursive;
     font-size: 4em;
     margin-top: 150px;
 }
 footer {
     text-align: center;
-    margin: 200px 0 50px 0;
-}
-
-}
-
+    margin: 150px 0 10px 0;
 }
