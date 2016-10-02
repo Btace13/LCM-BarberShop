@@ -58,7 +58,7 @@ address {
 }
 .business-header {
     height: 400px;
-    background: url(/img/pole.jpg);
+    background: url("http://i.imgur.com/bHZDM: 5px R.jpg;");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -85,7 +85,7 @@ hr {
     width: 250px;
     height: 250px;
     border-radius: 100%;
-    background: url(/img/son.jpg);
+    background: url("http://i.imgur.com/UCX52HQ.jpg");
     background-position: center;
     background-size: cover;
     box-shadow: 0 0 10px #ccc;
