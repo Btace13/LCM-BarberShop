@@ -107,9 +107,9 @@ hr {
 }
 .owl-theme .owl-item {
     text-align: center;
-    margin: auto;
+    margin: auto 25px;
 }
-.owl-theme .owl-controls .owl-page span {
+.owl-controls .owl-page span {
     margin: 0 4px;
 }
 .owl-theme .owl-controls .owl-page span {
@@ -117,7 +117,7 @@ hr {
     width: 5px;
     height: 5px;
 }
-.owl-theme .owl-controls .owl-pagination {
+.owl-theme .owl-cntrols .owl-pagination {
     margin-top: 20px;
 }
 #clients {
