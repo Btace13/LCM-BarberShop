@@ -110,7 +110,7 @@ hr {
 }
 .owl-theme .owl-item {
     text-align: center;
-    margin: auto 25px;
+    margin: auto;
 }
 .owl-controls .owl-page span {
     margin: 0 4px;
