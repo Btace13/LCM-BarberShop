@@ -20,6 +20,23 @@ $(document).ready(function() {
 
 });
 
+$(function() {
+    // Generic selector to be used anywhere
+    $(".js-scroll-to-id").click(function(e) {
+
+        // Get the href dynamically
+        var destination = $(this).attr('href');
+
+        // Prevent href=“#” link from changing the URL hash (optional)
+        e.preventDefault();
+
+        // Animate scroll to destination
+        $('html, body').animate({
+            scrollTop: $(destination).offset().top
+        }, 1000);
+    });
+});
+
 
 // $(document).on('click', 'a', function(event) {
 //     event.preventDefault();
