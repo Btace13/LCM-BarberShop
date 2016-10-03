@@ -99,6 +99,9 @@ hr {
     border-radius: 10px;
     box-shadow: 0 0 3px #222;
 }
+.backg {
+    background: #000;
+}
 .owl-items img {
     width: 200px;
     height: 200px;
