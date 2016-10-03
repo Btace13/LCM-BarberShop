@@ -48,10 +48,10 @@ address {
     text-align: center;
     display: block;
     padding: 10px 20px;
-    line-height: 40px;
-    font-size: 1.25em;
+    font-size: 2em;
     color: #ecf0f1;
     border-radius: 10px;
+    border: 1px solid #c0392b;
 }
 .widget-social li a:hover {
     background: #2980b9;
@@ -119,9 +119,13 @@ hr {
     border-radius: 100%;
     width: 5px;
     height: 5px;
+    background: #c0392b;
 }
 .owl-theme .owl-cntrols .owl-pagination {
     margin-top: 20px;
+}
+.owl-theme .owl-controls .owl-buttons div {
+    background: #2980b9;
 }
 #clients {
     text-align: center;
@@ -177,7 +181,7 @@ h4 {
 }
 #services h3 {
     font-family: 'Lobster', cursive;
-    color: #2980b9
+    color: #2980b9;
 }
 #tagline {
     text-shadow: 0 0 10px #c0392b;
