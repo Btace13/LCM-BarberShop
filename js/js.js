@@ -6,7 +6,30 @@ $("#owl-clients").owlCarousel({
 });
 
 
+$(document).ready(function() {
 
+    var owl = $("#owl-demo");
+
+    owl.owlCarousel({
+
+        items: 3,
+
+
+        // itemsCustom: [
+        //     [0, 2],
+        //     [450, 4],
+        //     [600, 7],
+        //     [700, 9],
+        //     [1000, 10],
+        //     [1200, 12],
+        //     [1400, 13],
+        //     [1600, 15]
+        // ],
+        navigation: true
+
+    });
+
+});
 
 
 // $(document).on('click', 'a', function(event) {
